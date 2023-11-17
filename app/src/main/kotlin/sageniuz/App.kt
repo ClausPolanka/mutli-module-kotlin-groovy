@@ -11,5 +11,6 @@ class App {
 }
 
 fun main() {
-    println(App().greeting)
+    val s = MyService()
+    s.print(App().greeting)
 }
